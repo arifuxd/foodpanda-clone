@@ -2,6 +2,7 @@ import { StyleSheet, Text, View, StatusBar } from "react-native";
 import React from "react";
 import HeaderTabs from "../components/HeaderTabs";
 import SearchBar from "../components/SearchBar";
+import Categories from "../components/Categories";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <View style={{ backgroundColor: "white", padding: 15 }}>
         <HeaderTabs />
         <SearchBar />
+        <Categories />
       </View>
     </View>
   );
