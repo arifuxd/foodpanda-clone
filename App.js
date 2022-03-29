@@ -1,5 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
+import HeaderTabs from "./components/HeaderTabs";
 import Home from "./screens/Home";
 
 export default function App() {
@@ -12,5 +13,8 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {},
+  container: {
+    backgroundColor: "#eee",
+    flex: 1,
+  },
 });
